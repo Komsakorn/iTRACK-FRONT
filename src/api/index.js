@@ -2,7 +2,7 @@ const axios = require("axios").default;
 
 const run = async () => {
   const client = axios.create({
-    baseURL: "https://itrack-backend.vercel.app/",
+    baseURL: "https://i-track-back-iota.vercel.app/",
   });
 
   const res = await client.get("/users/me/records");

@@ -3,7 +3,7 @@ import "./Dashboard.css";
 import Axios from "axios";
 
 const client = Axios.create({
-  baseURL: "https://itrack-backend.vercel.app/",
+  baseURL: "https://i-track-back-iota.vercel.app/",
   validateStatus: () => true,
 });
 
@@ -39,7 +39,7 @@ class Table extends React.Component {
 
   remove = (id) => {
     Axios.delete(
-      `https://itrack-backend.vercel.app/users/me/records/${id}`
+      `https://i-track-back-iota.vercel.app/users/me/records/${id}`
     ).then(() => {
       window.location.reload();
     });
