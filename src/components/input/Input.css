@@ -1,0 +1,25 @@
+.error {
+  border: 2px solid #f2796b;
+}
+
+.error-text {
+  color: #f2796b;
+  width: 100%;
+  text-align: left;
+  margin-top: 0.75rem;
+}
+
+input {
+  font-family: "Outfit", sans-serif;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+  outline: none;
+  margin-top: 1em;
+}
+
+label {
+  width: 100%;
+}

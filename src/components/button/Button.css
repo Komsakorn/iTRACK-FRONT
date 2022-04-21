@@ -1,0 +1,13 @@
+.custom-btn {
+  border: none;
+  border-radius: 0.5rem;
+  background: #538bc0;
+  color: #fff;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+  cursor: pointer;
+  margin-top: 1em;
+  text-decoration: solid;
+}

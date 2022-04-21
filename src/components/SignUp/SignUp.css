@@ -1,0 +1,34 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-regis {
+  font-size: 1em;
+}
+@media (max-width: 900px) {
+  .noacc-button {
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 600px) {
+  .noacc-button {
+    padding: 0.25rem;
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 300px) {
+  .noacc-button {
+    padding: 0.25rem;
+    font-size: 0.35rem;
+  }
+}

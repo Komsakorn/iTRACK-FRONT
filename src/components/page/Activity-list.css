@@ -1,0 +1,20 @@
+.boxed-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid rgb(88, 88, 88);
+  border-radius: 2%;
+}
+.add-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.close-icon {
+  min-width: 50%;
+  height: auto;
+  border-radius: 30px;
+  background: linear-gradient(rgb(124 214 241), rgb(124, 214, 241));
+}
+.close-icon:hover {
+  background: linear-gradient(rgb(255, 255, 255), rgb(124, 214, 241));
+}

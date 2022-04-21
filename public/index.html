@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0&appId=1348364602307982&autoLogAppEvents=1"
+      nonce="LRvjnv94"
+    ></script>
+    <script>
+      function fbLogout() {
+        FB.logout(function (response) {
+          window.location.reload();
+        });
+      }
+    </script>
+    <div id="root"></div>
+    <script type="module" src="../index.js"></script>
+  </body>
+</html>

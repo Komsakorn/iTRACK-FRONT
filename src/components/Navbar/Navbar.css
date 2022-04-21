@@ -1,0 +1,58 @@
+.Nav {
+  background: #000;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-bottom: 40px;
+}
+
+.NavLink {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-family: "Bebas Neue", cursive;
+}
+
+.NavMenu {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile-icon {
+  width: 4em;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  #Navlink-event {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #Navlink-event {
+    display: none;
+  }
+  #Navlink-blog {
+    display: none;
+  }
+  .Nav {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 300px) {
+  .Nav {
+    font-size: 0.5em;
+  }
+  .NavLink {
+    padding: 0em 0.25em;
+  }
+}

@@ -1,0 +1,134 @@
+#title {
+  text-align: start;
+  font-style: normal;
+  font-size: 2em;
+  font-family: "Bebas Neue", cursive;
+  color: #37485b;
+  margin-left: 3em;
+}
+
+#activities {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.dashboard-img {
+  width: 5em;
+  height: auto;
+}
+.dashboard-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dashboard-icon {
+  display: flex;
+  width: 1.5em;
+  height: auto;
+}
+.dashboard-tag {
+  display: flex;
+}
+.dashboard-label {
+  height: 100%;
+  width: 100%;
+  padding: 0.5em;
+  border: 3px;
+  background-color: #b7ecea;
+  border-radius: 40%;
+  margin-left: 0.5em;
+}
+.manage-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+#activities td,
+#activities th {
+  border-bottom: 2px solid #37485b;
+  padding: 8px;
+}
+
+#activities tr:hover {
+  background-color: #ddd;
+}
+
+#activities th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #f3f3f3;
+  color: #37485b;
+}
+.activity_id {
+  display: none;
+}
+#resized {
+  width: 5em;
+  height: 5em;
+}
+
+@media (max-width: 1000px) {
+  #cal {
+    display: none;
+  }
+  #table-cal {
+    display: none;
+  }
+  #tags {
+    display: none;
+  }
+  #table-tags {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  #type {
+    display: none;
+  }
+  #table-type {
+    display: none;
+  }
+  #img {
+    display: none;
+  }
+  #table-img {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  #duration {
+    display: none;
+  }
+  #table-duration {
+    display: none;
+  }
+}
+@media (max-width: 410px) {
+  #description {
+    display: none;
+  }
+  #table-desc {
+    display: none;
+  }
+  #activities th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #activities td,
+  #activities th {
+    padding: 0px;
+    font-size: 0.5em;
+  }
+  #title {
+    font-size: 0.75em;
+  }
+}

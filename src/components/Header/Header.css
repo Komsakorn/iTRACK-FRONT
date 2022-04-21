@@ -1,0 +1,39 @@
+.head {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.art {
+  width: 10rem;
+}
+.title {
+  font-size: 8rem;
+  color: #2c3a49;
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  .art {
+    width: 7rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .art {
+    width: 5rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .art {
+    width: 3rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
