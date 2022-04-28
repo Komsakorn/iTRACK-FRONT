@@ -9,6 +9,7 @@ const clientId =
 
 function GoogleButton() {
   const onSuccess = (res) => {
+    window.location.href = "https://itrack.vercel.app/Home";
     console.log("Login Success: currentUser:", res.profileObj);
     alert(`Logged in successfully welcome ${res.profileObj.name} 😍. \n `);
     refreshTokenSetup(res);
